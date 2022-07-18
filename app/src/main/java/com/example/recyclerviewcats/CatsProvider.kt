@@ -1,0 +1,62 @@
+package com.example.recyclerviewcats
+
+class CatsProvider {
+    companion object {
+        val catsList = listOf<Cats>(
+            Cats(
+                "Michi",
+                "Bengala",
+                2,
+                false,
+                true,
+                true,
+                "https://i.pinimg.com/originals/a2/cf/c4/a2cfc463c9e624185615b8eaca7d9aad.jpg"
+            ),
+            Cats(
+                "Leo",
+                "Persa",
+                3,
+                true,
+                true,
+                true,
+                "https://live.hsmob.io/storage/images/wakyma.com/wakyma.com_raza-de-gato-persa-te-lo-contamos-todo.jpg"
+            ),
+            Cats(
+                "Patitas",
+                "Munchkin",
+                1,
+                false,
+                false,
+                true,
+                "https://i.pinimg.com/originals/ad/c6/2d/adc62dfdf73efe1f1d1abc7fa1212510.jpg"
+            ),
+            Cats(
+                "Cleopatas",
+                "Sphynx",
+                2,
+                false,
+                false,
+                true,
+                "https://upload.wikimedia.org/wikipedia/commons/c/c1/Cat_Sphynx._img_025.jpg"
+            ),
+            Cats(
+                "Baboo",
+                "Chartreux",
+                5,
+                true,
+                true,
+                true,
+                "https://www.tiendanimal.es/articulos/wp-content/uploads/2020/03/gato1-1.jpg"
+            ),
+            Cats(
+                "Jade",
+                "Kinkalow",
+                4,
+                true,
+                false,
+                false,
+                "https://thediscerningcat.com/wp-content/uploads/2021/08/grey-kinkalow.jpg"
+            )
+        )
+    }
+}
